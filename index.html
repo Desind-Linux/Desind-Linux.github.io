@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <img src="images/logo.png" alt="Desind GNU/Linux" style="width: 15px;">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <title>Desind - Linux for Creators & Gamers</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
         * {
-            margin: 0;
-            padding: 0;
+            margin: 16;
+            padding: 16;
             box-sizing: border-box;
         }
 
@@ -17,7 +18,7 @@
             --bg-secondary: #000000;
             --bg-card: #000000;
             --text-primary: #ffffff;
-            --text-secondary: #e2e2e2;
+            --text-secondary: #e0e0e0;
             --accent: #ffffff;
             --accent-hover: #ffffff;
             --gradient-1: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);
@@ -28,13 +29,16 @@
 
         [data-theme="light"] {
             --bg-primary: #ffffff;
-            --bg-secondary: #f8f9fa;
+            --bg-secondary: #ffffff;
             --bg-card: #ffffff;
             --text-primary: #000000;
             --text-secondary: #000000;
             --accent: #000000;
             --accent-hover: #000000;
-            --shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            --gradient-1: linear-gradient(135deg, #000000 0%, #000000 100%);
+            --gradient-2: linear-gradient(135deg, #000000 0%, #000000 100%);
+            --gradient-3: linear-gradient(135deg, #000000 0%, #000000 100%);            
+            --shadow: 0 10px 40px rgba(0, 0, 0, 0.37);
         }
 
         body {
@@ -66,7 +70,7 @@
         }
 
         [data-theme="light"] nav {
-            border-bottom: 0px solid #000000;
+            border-bottom: 2px solid #000000;
         }
 
         nav .container {
